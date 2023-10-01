@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+    .main {
+    padding-right: 40px;
+    padding-left: 220px; /* 180 + 40 */
+    }
+}
+
+
+
+.sidebar {
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    height: 100%;
+    border-right: 1px solid #eee;
+    transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+    width: 4.5rem;
+  }
+.logo-color{
+    color: #0589D0 !important;
+}
+
+
+.nav-link:hover, .nav-link:hover  i, .nav-link.active{
+    color: white !important;
+    background-color: #0589D0 !important;
+}
+
+
+i {
+    font-size: 23px; /* Default font size */
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    i {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Adjust font size for even smaller screens */
+    i {
+        font-size: 9px;
+    }
+}
